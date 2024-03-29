@@ -10,7 +10,7 @@ export default function Body(){
                 <div className=" order-1 md:order-1 text-[#fff] font-bold display-2 sm:text-[18px]">
                     <div className="mb-16">
                         <p className=" text-[53px] ">Explore the future of the Metaverse</p>
-                        <strong className="text-[60px] font-bold bg-clip-text text-[#ff6767] shadow-zinc-800 ">Metaverse</strong>
+                        <strong className="text-[60px] font-bold bg-clip-text text-[#ff6767] shadow-zinc-800 ">WebEasy</strong>
                     </div>
                     <button className="bg-gradient-to-r from-red-300 to-green-400 rounded-lg p-3 text-[#fff] hover:opacity-45" type="button">Get Strated</button>
                 </div>
