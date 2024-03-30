@@ -3,6 +3,7 @@ import imgUno from  "../assets/img1.png";
 import imgDos from  "../assets/img2.png";
 import imgTres from  "../assets/img3.png";
 import imgCuatro from '../assets/img4.png'
+import { Link } from "react-router-dom";
 
     const activities = [
         {
@@ -36,7 +37,7 @@ import imgCuatro from '../assets/img4.png'
           <img src={activity.image} alt={activity.name} />
           <h2 className="text-[20px] font-bold">{activity.name}</h2>
           <p className="text-[14px]">{activity.description}</p>
-          <button className="bg-gradient-to-r from-red-300 to-green-400 opacity-90 text-[#ff303a] hover:opacity-90 cursor-pointer rounded-xl p-3 mt-3 w-40" type="button">Explore the topic</button>
+          <Link to="/productos" className="bg-gradient-to-r from-red-300 to-green-400 opacity-90 text-[#ff303a] hover:opacity-90 cursor-pointer rounded-xl p-3 mt-3 w-40" type="button">Explore the topic</Link>
         </div>
       );
 export { activities, ActivityCard };

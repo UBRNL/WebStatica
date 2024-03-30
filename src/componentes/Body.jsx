@@ -1,6 +1,7 @@
 import React from "react";
 import chica from "../assets/chica.png"
 import { activities, ActivityCard } from './Cards';
+import { Link } from "react-router-dom";
 
 
 export default function Body(){
@@ -12,7 +13,7 @@ export default function Body(){
                         <p className=" text-[53px] ">Explore the future of the Metaverse</p>
                         <strong className="text-[60px] font-bold bg-clip-text text-[#ff6767] shadow-zinc-800 ">WebEasy</strong>
                     </div>
-                    <button className="bg-gradient-to-r from-red-300 to-green-400 rounded-lg p-3 text-[#fff] hover:opacity-45" type="button">Get Strated</button>
+                    <Link to="/contacto" className="bg-gradient-to-r from-red-300 to-green-400 rounded-lg p-3 text-[#fff] hover:opacity-45" type="button">Get Strated</Link>
                 </div>
                 <div className="order-2 md:order-2 flex justify-center mt-6 ">
                     <img className="sm:hidden md:block" src={chica} alt="chica" />
